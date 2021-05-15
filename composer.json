@@ -1,0 +1,30 @@
+{
+    "name": "tomchkk/laravel-timezones",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tom Moore",
+            "email": "tpm.moore@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "tomchkk\\LaravelTimeZones\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tomchkk\\LaravelTimeZones\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
